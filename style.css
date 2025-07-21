@@ -9,10 +9,31 @@
     border-radius: 4px;
 }
 .img-content{
-    background:url(./img/bg-1.webp),#3a3a3ab7 !important;
-    height: 900px !important;
+    /* background:url(./img/bg-1.webp),#3a3a3ab7 !important; */
+    background: url(img/bg-1.webp), #1a2533ce;
+    background-blend-mode: overlay;
+    height: 800PX !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-attachment: fixed !important;
+    
+}
+
+.btn1:hover{
+    background: transparent !important;
+    text-decoration:underline ;
+}
+
+
+/* @media(max-width:575px)
+{
+ .font-size{
+    font-size: 25PX;
+ }
+} */
+
+
+.slider-text{
+    height: 55vh;
 }
