@@ -10,9 +10,9 @@
 }
 .img-content{
     /* background:url(./img/bg-1.webp),#3a3a3ab7 !important; */
-    background: url(img/bg-1.webp), #1a2533ce;
+    background: url(img/bg-1.webp), #252e3be3;
     background-blend-mode: overlay;
-    height: 800PX !important;
+    height: 900px;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
@@ -36,4 +36,9 @@
 
 .slider-text{
     height: 55vh;
+}
+
+.imj-1{
+    background-image: url("img/1.png.webp");
+    background-size: cover;
 }
