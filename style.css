@@ -62,19 +62,3 @@
 }
 /* ____________slider_______________________ */
 
-.team_area .single_team .team_thumb {
-    overflow: hidden;
-    margin-bottom: 26px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    position: relative;
-}
-
-.social_link{
-        /* transition: 0.5s; */
-    transform: translateY(100%) scale(1.2);
-    opacity: 0;
-    visibility: hidden;
-   
-}
