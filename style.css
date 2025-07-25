@@ -18,15 +18,26 @@
     background-attachment: fixed !important;
 }
 
+.bg-yellow{
+    background-color: #C5A880 !important;
+}
 
+.col-lg-10 .btn-1:hover {
+    background-color: white !important;
+    color: black !important;
+}
 
 .slider-text{
-    height: 50vh;
+    height: 100vh;
 }
 
 .btn1:hover{
     background: transparent !important;
     text-decoration:underline ;
+    
+}
+.btn:hover .over-one{
+    color: black !important;
 }
 
 .label-top-left {
@@ -40,69 +51,30 @@
       font-weight: 600;
       border-radius: 20px;
     }
-
-    .ww:hover{
-
-        background-color: aliceblue !important;
-        text-emphasis-color: aliceblue;
+ .ww:hover{
+     background-color: aliceblue !important;
+     text-emphasis-color: aliceblue;
     }
 
 .project:hover{
     scale: 1.1 !important;
     transition: all 0.5s !important;
-
 }
 /* ____________slider_______________________ */
 
-.slider{
-    background-image: url(img/home_details.png.webp);
-   
-}
-/* .swiper {
-    width: 100%;
-    height: 100%;
- } */
-
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #444;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .forsale{
-        border-radius: 5px;
-    background: #FDAE5C;
-    padding: 9px 21px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 15px;
-    color: #fff;
-    font-weight: 500;
-    top: -20px;
-    left: 34px;
-}
-    
-/* .ty{
+.team_area .single_team .team_thumb {
     overflow: hidden;
-    height: 300px;
-    background-size: cover;
-    background-position: cover;
-} */
+    margin-bottom: 26px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+}
 
-.height-5{
-    height: 00px !important;
-     background-size: cover !important;
-     background-position: cover !important;
-     background-repeat: no-repeat !important;
+.social_link{
+        /* transition: 0.5s; */
+    transform: translateY(100%) scale(1.2);
+    opacity: 0;
+    visibility: hidden;
+   
 }
