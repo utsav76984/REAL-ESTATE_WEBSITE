@@ -27,8 +27,16 @@
     color: black !important;
 }
 
+.item:hover{
+   color: black !important;
+}
 .slider-text{
     height: 100vh;
+}
+
+.col-lg-10 .btn-2:hover {
+    background-color: white !important;
+    color: black !important;
 }
 
 .btn1:hover{
